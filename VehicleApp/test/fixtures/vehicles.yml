@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  make: MyString
+  model: MyString
+  color: MyString
+  doors: 1
+  seating: 1
+  engine: MyString
+
+two:
+  make: MyString
+  model: MyString
+  color: MyString
+  doors: 1
+  seating: 1
+  engine: MyString
