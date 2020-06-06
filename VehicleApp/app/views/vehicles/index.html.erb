@@ -1,0 +1,11 @@
+<html>
+    <head><title>Listing Vehicles</title></head>
+    <body>
+        Here are links to the Vehicles in the database!<br>
+        <% @vehicle.each do |vehicle| %>
+            <a href="/vehicles/<%= vehicle.id %>"><%= vehicle.make %></a> 
+            | <a href="/vehicles/<%= vehicle.id %>/delete"> Delete? </a>
+            <br>
+        <% end %>
+    </body>
+</html>
